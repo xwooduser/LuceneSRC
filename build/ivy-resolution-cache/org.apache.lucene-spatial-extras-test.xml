@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="spatial-extras"
+		revision="working@JCF3042"
+		conf="test"
+		confs="compile, test"
+		date="20160505174503"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404191248" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="4802" time="0" location="D:\Users\JCF3042\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="org.apache.lucene" name="spatial-extras" conf="test" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="working@JCF3042"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="D:\Users\JCF3042\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.locationtech.spatial4j" name="spatial4j">
+			<revision name="0.6" status="release" pubdate="20160227053900" resolver="public" artresolver="main" homepage="http://www.locationtech.org/projects/locationtech.spatial4j" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4215" time="0" location="D:\Users\JCF3042\.ivy2\cache\org.locationtech.spatial4j\spatial4j\ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6.pom"/>
+				<caller organisation="org.apache.lucene" name="spatial-extras" conf="test" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="working@JCF3042"/>
+				<artifacts>
+					<artifact name="spatial4j" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="135167" time="0" location="D:\Users\JCF3042\.ivy2\cache\org.locationtech.spatial4j\spatial4j\tests\spatial4j-0.6-tests.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
